@@ -9,3 +9,9 @@ For Synology NAS, open "Control Panel" --> "Task Scheduler" --> "Create" --> "Us
 curl https://dns.yourname.workers.dev/?token=123
 ```
 open https://dns.yourname.workers.dev will redirect to your ip. 
+
+### other parameter
+#### set ip
+curl https://dns.yourname.workers.dev/?token=123&ip=1.2.3.4
+#### set port
+curl https://dns.yourname.workers.dev/?token=123&port=5000
