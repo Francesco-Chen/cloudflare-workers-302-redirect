@@ -15,3 +15,5 @@ open https://dns.yourname.workers.dev will redirect to your ip.
 curl https://dns.yourname.workers.dev/?token=123&ip=1.2.3.4
 #### set port
 curl https://dns.yourname.workers.dev/?token=123&port=5000
+#### set ip & port
+curl https://dns.yourname.workers.dev/?token=123&ip=1.2.3.4&port=5000
